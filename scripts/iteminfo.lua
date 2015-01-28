@@ -2,7 +2,7 @@
 	Shows item info on screen for the specified inventory side
 	@synopsis iteminfo <side> <slot_number>
 --]]
-os.loadAPI('../dumpvar.lua')
+os.loadAPI('../API/dumpvar.lua')
 local tArgs = {...}
 
 function print_usage()

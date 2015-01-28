@@ -1,0 +1,14 @@
+local programs = {
+	pedals = 'turtle/craft_pedals.lua'
+	branch = 'turtle/branch_miner.lua'
+	item_info = 'scripts/iteminfo.lua'
+}
+term.clear()
+term.setCursorPos( 1,1 )
+
+for alias,program in pairs( programs ) do
+	shell.setAlias( alias, program )
+end
+
+print( 'JayOS v1.0' )
+print('')
